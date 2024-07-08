@@ -1,0 +1,73 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(home.jpg);
+}
+
+.global {
+    margin-top: 40px;
+    margin-left: 50PX;
+
+}
+.global h1{
+    color: white;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.global .add{
+    width: 140PX;
+    padding: 10PX 15PX;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0PX 0PX 2PX rgb(227, 144, 241);
+    background-color: blueviolet;
+    color: white;
+    margin-bottom:18PX ;
+   
+}
+.global .add::before{
+    content: "🩷";
+    position: absolute;
+    top: 101PX;
+    left: 50PX;
+    font-size: 20PX;
+}
+.global .add:hover{
+    box-shadow: 0px 0PX 0PX 2PX rgb(217, 0, 255);
+}
+.note{
+  width: 600PX;
+  height: 100PX;
+  background: rgba(255, 255,255, 0.5);
+  border-radius: 8px;
+  color: white;
+  border: none;
+  padding: 15PX;
+  font-size: 15px;
+  margin-bottom: 10PX;
+}
+.material-symbols-outlined{
+    font-size: 18PX;
+    position: absolute;
+    margin-left: 10PX;
+    top: 120PX;
+}
+.delete-btn {
+    background-color: rgb(176, 0, 245);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+
+}
+
+.delete-btn:hover {
+    box-shadow: 0px 0PX 0PX 2PX rgb(217, 0, 255);
+}
+
+.delete-btn:focus {
+    outline: none;
+}
