@@ -10,10 +10,11 @@ function addNote() {
         return;
     }
 
-    
+   
     var note = document.createElement('div');
     note.classList.add('note');
     note.contentEditable = true; 
+
 
     var noteContent = document.createElement('span');
     noteContent.innerHTML = "💜 "; 
@@ -26,13 +27,12 @@ function addNote() {
         notesContainer.removeChild(note);
     });
 
-    // 
     note.appendChild(noteContent);
     note.appendChild(deleteButton);
 
-    // Add commant
+    
     notesContainer.appendChild(note);
 
-   
+    
     noteContent.focus();
 }
